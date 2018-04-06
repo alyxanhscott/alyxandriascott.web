@@ -1,0 +1,47 @@
+
+.about {
+    position: relative;
+    display: grid;
+    margin: 2vh 6vh 2vh 6vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: #774e85;
+    text-shadow: #c5b1cb 3px 3px 6px;
+}
+
+.card {
+    margin: 0 2vh 0 2vh!important;
+}
+
+#nutshell {
+    justify-items: center;
+    align-items: center;
+    overflow: visible;
+    text-align: center;
+    color: #985eaa;
+    text-shadow: rgba(143, 209, 148, 0.73) 3px 3px 6px;
+    margin: 6vh 0 6vh 0;
+    font-size: 3.5em;
+}
+
+.li {
+    font-size: 1.5em;
+}
+
+.card-title {
+    font-size: 2em!important;
+}
+
+hr {
+    width: 50%;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    border: .2vh solid white;
+    box-shadow: rgba(143, 209, 148, 0.73) 3px 3px 6px;
+
+
+}
+
