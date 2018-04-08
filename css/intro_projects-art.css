@@ -1,0 +1,151 @@
+
+#intro {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hello {
+    margin-top: 1.5em;
+    margin-bottom: .8em;
+    font-size: 3.5em;
+    color: rgba(22, 5, 58, 0.76);
+    text-shadow: rgba(100, 54, 203, 0.69) 2px 2px 6px;
+}
+
+#ty {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    color: rgba(22, 5, 58, 0.58);
+}
+
+hr { border-color: #c5b1cb; }
+
+
+#projects-art {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: .5fr 1fr 1fr;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.h {
+    font-size: 2em;
+    color: rgba(60, 0, 163, 0.85);
+    text-shadow: rgba(197, 177, 203, 0.9) 2px 2px 4px;
+}
+
+.header1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#project1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#project2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#project3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#project4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.header2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#art1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#art2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#art3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#art4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.items {
+    font-size: 1em;
+    margin: .8em .8em .8em .8em;
+    color: rgba(22, 5, 58, 0.60);
+}
+
+.item-titles {
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

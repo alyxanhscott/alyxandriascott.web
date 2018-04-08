@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    background-color: rgba(197, 177, 203, 0.51);
+}
+
+#video {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+}
+
+#jumbo {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: .5fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+    color: #e8c8fd;
+    text-shadow: #c5b1cb 2px 2px 6px;
+}
+
+#allieS1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#allieS {
+    font-size: 8em;
+}
+
+.tagline {
+    font-size: 1.5em;
+}
+
+
+.tagline > a:link {
+    color: #a3fda8;
+    text-decoration: none;
+}
+
+
+.tagline > a:visited {
+    color: #a3fda8
+}
+
+.tagline > a:hover {
+    color: #c2c8ff;
+}
+
+/*===========NAV BAR============*/
+.nav {
+    position: relative;
+    font-size: 1.3em;
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-items: center;
+    justify-items: center;
+    width: 30%;
+    margin: 0 auto;
+    text-shadow: #c5b1cb 2px 2px 6px;
+}
+
+.nav::after {
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid #e8c8fd;
+    bottom: 0;
+    width: 60%;
+}
+
+/*========LINKS==========*/
+.nav a:link {
+    color: #e8c8fd;
+    text-decoration: none;
+}
+.nav a:visited {
+    color: #c6c0ca
+}
+.nav a:hover {
+    color: #c2c8ff;
+}
+
+a {
+    transition: color .15s ease-in;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    5% {
+        transform: scale(1.25);
+    }
+    20% {
+        transform: scale(1);
+    }
+}
+
+#AS {
+    font-size: 1.5em;
+    animation: pulse 3s infinite;
+}
+
+#divider {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    background-color: rgba(253, 182, 215, 0.58);
+
+}
+
+/*End Nav, begin Footer*/
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(198, 192, 202, 0.69);
+    align-items: center;
+    justify-items: center;
+    font-size: 1.5em;
+    text-shadow: #c5b1cb 3px 3px 6px;
+}
+
+#footer a:link {
+    color: #ffffff;
+    text-decoration: none
+}
+#footer a:visited {
+    color: #97958d
+}
+#footer a:hover {
+    color: #a24d79
+}
+
+
+
