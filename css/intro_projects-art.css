@@ -30,7 +30,11 @@ hr { border-color: #c5b1cb; }
 
 #projects {
     background-image: url("../images/bright-squares.png");
-    background-color: #f0d598;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(188, 240, 171, 0.96);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: .1fr 1fr 1fr 1fr;
@@ -43,7 +47,7 @@ hr { border-color: #c5b1cb; }
     z-index: -1;
     border-radius: 5%;
     border: 3px solid rgba(198, 203, 173, 0.82);
-    box-shadow: rgba(203, 169, 135, 0.9) 4px 3px 4px;
+    box-shadow: rgba(182, 203, 161, 0.9) 4px 3px 4px;
 }
 
 .h {
@@ -98,6 +102,10 @@ hr { border-color: #c5b1cb; }
 
 .art {
     background-image: url("../images/diagmonds-light.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(220, 94, 90, 0.63);
     display: grid;
     grid-template-columns: repeat(2, 1fr);

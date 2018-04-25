@@ -2,6 +2,10 @@
 .Contact {
     background-color: rgba(15, 6, 43, 0.89);
     background-image: url("../images/asfalt-light.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-rows: .1fr 1fr;
     position: relative;
@@ -11,7 +15,7 @@
     margin-top: 3em;
     margin-bottom: 6em;
     z-index: -1;
-    box-shadow: rgba(163, 203, 194, 0.9) 4px 3px 4px;
+    box-shadow: rgba(54, 55, 203, 0.9) 4px 3px 4px;
     color: rgba(248, 247, 236, 0.93);
     border-top: 2px dotted #487585;
 }
@@ -45,4 +49,11 @@
     border: 2px solid #af5c8b;
     padding: .5em 1em;
     margin-bottom: 1em;
+}
+
+#copyright {
+    color: rgba(85, 83, 78, 0.81);
+    text-align: center;
+    margin: 3em 0 8em 0;
+    font-size: .7em;
 }
