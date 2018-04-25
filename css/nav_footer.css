@@ -46,12 +46,10 @@ body {
     font-size: 1.5em;
 }
 
-
 .tagline > a:link {
     color: #a3fda8;
     text-decoration: none;
 }
-
 
 .tagline > a:visited {
     color: #a3fda8
@@ -91,11 +89,17 @@ body {
     color: #e8c8fd;
     text-decoration: none;
 }
+
 .nav a:visited {
-    color: #c6c0ca
+    color: #c6c0ca;
 }
+
 .nav a:hover {
     color: #c2c8ff;
+}
+
+.nav a:active {
+    color: #e8c8fd;
 }
 
 a {

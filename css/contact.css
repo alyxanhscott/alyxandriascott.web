@@ -30,17 +30,18 @@
     margin-top: 1em;
     color: rgba(255, 255, 255, 0.80);
     font-size: 1.1em;
+    list-style-type: none;
 }
 
 #form-body {
     margin: 2em 0 2em 0;
     height: 10em;
     width: 40em;
-    color: white;
 }
 
 #email-field {
-    color: white;
+    width: 75%;
+    height: 2em;
 }
 
 .button {
@@ -57,3 +58,16 @@
     margin: 3em 0 8em 0;
     font-size: .7em;
 }
+
+input[type=email], textarea {
+    padding: 8px;
+    border:1px solid #e8c8fd;
+    border-radius: .25em;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #e8c8fd;
+}
+
+input[type=email]::placeholder, textarea::placeholder {
+    color: #c6c0ca;
+}
+
