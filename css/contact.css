@@ -1,0 +1,48 @@
+
+.Contact {
+    background-color: rgba(15, 6, 43, 0.89);
+    background-image: url("../images/asfalt-light.png");
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+    position: relative;
+    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 6em;
+    z-index: -1;
+    box-shadow: rgba(163, 203, 194, 0.9) 4px 3px 4px;
+    color: rgba(248, 247, 236, 0.93);
+    border-top: 2px dotted #487585;
+}
+
+#contact-header {
+    font-size: 2.2em;
+    margin-top: 1.5em;
+    text-shadow: #a24d79 1px 1px 4px;
+}
+
+#contact-list {
+    margin-top: 1em;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 1.1em;
+}
+
+#form-body {
+    margin: 2em 0 2em 0;
+    height: 10em;
+    width: 40em;
+    color: white;
+}
+
+#email-field {
+    color: white;
+}
+
+.button {
+    background-color: white;
+    color: #18006e;
+    border: 2px solid #af5c8b;
+    padding: .5em 1em;
+    margin-bottom: 1em;
+}
